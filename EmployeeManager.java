@@ -33,7 +33,7 @@ public class EmployeeManager {
         if (employees.remove(id) != null){
             System.out.println("Funcionário removido com sucesso! \n");
         } else{
-            System.out.println("ID não contrado! \n");
+            System.out.println("ID não encontrado! \n");
         }
     }
 
