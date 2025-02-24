@@ -42,12 +42,5 @@ public class Employee {
         this.name = name;
         this.wage = wage;
     }
-
-
-
-    //Métodos da classe
-    public void mostrarDados(){
-        System.out.println("ID: "+ this.id + "\nNome: " + this.name + "\nSalário: "+ this.wage);
-    }
 }
 
